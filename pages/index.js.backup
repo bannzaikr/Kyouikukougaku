@@ -1,0 +1,10 @@
+export default function Home() {
+  return (
+    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold text-blue-500">
+        Tailwind CSS is working!
+      </h1>
+    </div>
+  );
+}
+
