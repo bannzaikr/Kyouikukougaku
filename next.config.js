@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+  output: 'export', // 静的ファイルとしてエクスポート
+  assetPrefix: './', // リソースパスを相対パスに変更
+  trailingSlash: true, // フォルダ構造に適したスラッシュを付加
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
